@@ -1,17 +1,14 @@
 const btnEl = document.querySelector('.share-or-copy')
 
-// 각 지원 기능 확인!
 const isSupportedShare = !!navigator?.share
 const isSupportedClipboard = !!navigator?.clipboard
 const isSupportedClipboardCommand = document.queryCommandSupported?.('copy')
 
-// 공유 및 복사 기능 상태 체크!
 const healthEl = document.createElement('div')
 healthEl.style.display = 'none'
 healthEl.innerHTML = `s: ${isSupportedShare}, c: ${isSupportedClipboard}, cc: ${isSupportedClipboardCommand}`
 document.body.append(healthEl)
 
-// 모바일 브라우저 내장 공유 기능!
 async function startNativeShare() {
   await navigator.share({
     title: '나한테 맞는 립스틱 찾기',
@@ -20,9 +17,7 @@ async function startNativeShare() {
   })
 }
 
-// 주소 복사 기능!
 async function copyToClipboard() {
-  // 레거시 우선!
   if (isSupportedClipboardCommand) {
     const textarea = document.createElement('textarea')
     textarea.style.position = 'fixed'
@@ -45,12 +40,10 @@ async function copyToClipboard() {
   }
 }
 
-// 모든 기능이 없는 경우 공유 버튼 제거!
 if (!isSupportedShare && !isSupportedClipboard && !isSupportedClipboardCommand) {
   btnEl.style.display = 'none'
 }
 
-// 공유 버튼을 클릭했을 떄!
 btnEl?.addEventListener('click', async function () {
   if (isSupportedShare) {
     await startNativeShare()
