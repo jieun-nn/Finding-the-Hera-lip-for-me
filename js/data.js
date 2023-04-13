@@ -47,7 +47,7 @@ export const results = [
     results: [
       '선명한 컬러감의 수분 림밤으로, 30시간동안 입술을 편안하게 유지시켜줍니다.'
     ],
-    lipstickImg: '/images/result_lecture1.png',
+    lipstickImg: '/images/result_banner.jpg',
     llipstickUrl: 'https://www.shilladfs.com/estore/kr/ko/p/5057509'
   },
   {
@@ -56,7 +56,7 @@ export const results = [
     results: [
       '매끄럽고 빛나는 립글로스로, 불륨감 있는 립 메이크업 효과를 낼 수 있습니다.'
     ],
-    llipstickImg: '/images/result_lecture1.png',
+    llipstickImg: '/images/result_banner.jpg',
     lipstickUrl: 'https://www.shilladfs.com/estore/kr/ko/p/5057507'
   },
   {
@@ -65,16 +65,16 @@ export const results = [
     results: [
       '신비로운 분위기와 색의 조화가 마치 부드러운 블러 필터가 적용된 것처럼 뉴트럴하고 부드러운 메이크업을 완성시켜줍니다. 부드러운 벨벳 질감과 풍부한 색감을 느껴보세요.'
     ],
-    lipstickImg: '/images/result_lecture1.png',
+    lipstickImg: '/images/result_banner.jpg',
     lipstickUrl: 'https://www.shilladfs.com/estore/kr/ko/p/5086270'
   },
   {
     title: '센슈얼 파우더 매트 립스틱',
-    lip: '/images/res/images/result_lip4.png',
+    lip: '/images/result_lip4.png',
     results: [
       '헤라의 새로운 벨벳 텍스처로 입술은 비단의 베일처럼 부드럽게 윤기있고 촉촉하게 만들어줍니다.'
     ],
-    lipstickImg: '/images/result_lecture1.png',
+    lipstickImg: '/images/result_banner.jpg',
     lipstickUrl: 'https://www.shilladfs.com/estore/kr/ko/p/5034426'
   },
   {
@@ -83,7 +83,7 @@ export const results = [
     results: [
       '수수한 팝 컬러와 은은한 광택효과가 더해져 편안하면서도 발색이 오래가는 제품입니다.'
     ],
-    lipstickImg: '/images/result_lecture1.png',
+    lipstickImg: '/images/result_banner.jpg',
     lipstickUrl: 'https://www.shilladfs.com/estore/kr/ko/p/4983006'
   }
 ]
