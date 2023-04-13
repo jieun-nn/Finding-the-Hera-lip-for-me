@@ -1,7 +1,7 @@
 
 # 나한테 맞는 헤라 립 찾기
 
-<a href="https://prismatic-monstera-4c9d6a.netlify.app/" target="_blank">헤라 립찾기 사이트 보기</a> 
+<a href="https://dainty-narwhal-51ada4.netlify.app" target="_blank">헤라 립찾기 사이트 보기</a> 
 
 <img src="./screenshot-main.jpg" alt="" width="50%" />
 
@@ -16,7 +16,7 @@
 문답 형식을 통해 사용자의 니즈에 맞는 립스틱을 추천하고자 합니다.
 ```
 
-- 아이디어를 직접 제안하는 형태로 진행했습니다. 
+- 아이디어부터 직접 제안하는 형태로 진행했습니다. 
 - 기획 및 디자인, 개발은 모두 1인 개발로 진행하였습니다. 
 
 
@@ -25,7 +25,8 @@
 개발은 html, css, javascript를 통해서 진행하였습니다. 
 
 ```html
- 배포는 netlify 사이트를 통했습니다. 
+ 배포는 netlify 사이트를 통했습니다.
+ https://dainty-narwhal-51ada4.netlify.app
 ```
 
 
