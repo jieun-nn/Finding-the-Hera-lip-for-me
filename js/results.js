@@ -11,7 +11,7 @@ const lipstickEl = document.querySelector('.lipstick')
 const lipstickImgEl = document.querySelector('.lipstick img')
 
 titleEl.innerHTML = result.title
-lipEl.src = result.character
+lipEl.src = result.lip
 boxEls.forEach(function (boxEl, index) {
   boxEl.innerHTML = result.results[index]
 })
