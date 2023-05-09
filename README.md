@@ -3,7 +3,7 @@
 
 <a href="https://find-heralip-online.netlify.app" target="_blank">헤라 립찾기 사이트 보기</a> 
 
-<img src="./screenshot-main.jpg" alt="" width="50%" />
+<img src="./screenshot-main.png" alt="" width="50%" />
 
 
 
